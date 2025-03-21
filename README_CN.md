@@ -1,6 +1,6 @@
 # 手势控制贪吃蛇游戏
 
-[返回主页](README.md) | [English Version](README.md#english-version)
+[English](README.md)
 
 ![游戏演示](https://github.com/wangqiqi/interesting_assets/raw/main/images/gensture-snake2.png)
 

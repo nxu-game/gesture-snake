@@ -1,111 +1,106 @@
-# 手势控制贪吃蛇游戏 | Gesture Controlled Snake Game
 
-[English](README_en.md) | [中文](#中文)
+[中文](README.md)
 
-<img src="assets/gensture-snake.png" alt="游戏演示" width="800"/>
+![游戏演示](https://github.com/wangqiqi/interesting_assets/raw/main/images/gensture-snake2.png)
 
-## 中文
+# Introduction
 
-### 简介
+Gesture Snake is an interactive game that combines computer vision with the classic Snake game. Players control the snake's movement direction using hand gestures captured by a webcam. The game screen is split into two parts: the left side shows the real-time video feed with hand tracking, and the right side displays the Snake game.
 
-手势贪吃蛇是一款结合计算机视觉与经典贪吃蛇游戏的互动游戏。玩家通过摄像头捕捉的手势来控制蛇的移动方向。游戏屏幕分为两部分：左侧显示实时视频流和手部跟踪，右侧显示贪吃蛇游戏。
+# Features
 
-### 特点
+- Control snake movement using hand gestures
+- Real-time hand tracking and gesture recognition
+- Split-screen interface showing both video feed and game
+- Classic Snake game mechanics with proximity food detection
+- Adjustable game speed based on score
+- Wall collision toggle (pass through walls or game over on collision)
+- Background music and sound effects
+- Pause/resume functionality
+- Grid display toggle
+- Help information display
 
-- 使用手势控制蛇的移动
-- 实时手部跟踪和手势识别
-- 分屏界面同时显示视频流和游戏画面
-- 经典贪吃蛇游戏机制，带有食物邻近检测功能
-- 基于得分的游戏速度调整
-- 墙壁碰撞切换（可穿墙或碰墙结束游戏）
-- 背景音乐和音效
-- 暂停/继续功能
-- 网格显示切换
-- 帮助信息显示
+# How to Play
 
-### 游戏玩法
+1. Position your hand in front of the webcam
+2. Use your thumb and index finger to form a direction
+3. The angle between your thumb and index finger determines the snake's movement:
+   - Point up: Snake moves upward
+   - Point right: Snake moves right
+   - Point down: Snake moves downward
+   - Point left: Snake moves left
+4. Collect food (red squares) to grow the snake and increase your score
+5. Avoid colliding with the snake's own body or walls (if wall collision is enabled)
 
-1. 将手放在摄像头前
-2. 使用拇指和食指形成方向
-3. 拇指和食指之间的角度决定蛇的移动方向：
-   - 向上指：蛇向上移动
-   - 向右指：蛇向右移动
-   - 向下指：蛇向下移动
-   - 向左指：蛇向左移动
-4. 收集食物（红色方块）使蛇变长并增加分数
-5. 避免蛇撞到自己的身体或墙壁（如果启用了墙壁碰撞）
+# Controls
 
-### 控制方式
+- **Hand Gestures**: Control snake direction
+- **P key**: Pause/resume game
+- **R key**: Restart game when game over
+- **G key**: Show/hide grid
+- **W key**: Enable/disable wall collision
+- **H key**: Show/hide help information
+- **M key**: Toggle music
+- **+/- keys**: Increase/decrease game speed
+- **ESC key**: Exit game
 
-- **手势**：控制蛇的方向
-- **P键**：暂停/继续游戏
-- **R键**：游戏结束时重新开始
-- **G键**：显示/隐藏网格
-- **W键**：启用/禁用墙壁碰撞
-- **H键**：显示/隐藏帮助信息
-- **M键**：开启/关闭音乐
-- **+/-键**：增加/减少游戏速度
-- **ESC键**：退出游戏
+# Installation
 
-### 安装
-
-1. 克隆仓库：
+1. Clone the repository:
    ```
    git clone https://github.com/yourusername/gesture-snake.git
    cd gesture-snake
    ```
 
-2. 安装依赖：
+2. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. 运行游戏：
+3. Run the game:
    ```
    python run.py
    ```
 
-### 音效
+# Sound Effects
 
-游戏支持以下音效：
-- 背景音乐
-- 吃食物音效
-- 方向变化音效
-- 游戏结束音效
+The game supports the following sound effects:
+- Background music
+- Food eating sound
+- Direction change sound
+- Game over sound
 
-将您的音效文件放在`sounds`目录中，使用以下文件名：
-- `background.mp3`：背景音乐
-- `eat.mp3`：吃食物时的音效
-- `turn.mp3`：改变方向时的音效
-- `game_over.mp3`：游戏结束时的音效
+Place your sound files in the `sounds` directory with the following names:
+- `background.mp3`: Background music
+- `eat.mp3`: Sound when eating food
+- `turn.mp3`: Sound when changing direction
+- `game_over.mp3`: Sound when game is over
 
-### 系统要求
+# Requirements
 
 - Python 3.7+
-- 摄像头
-- 查看 `requirements.txt` 获取Python包依赖
+- Webcam
+- See `requirements.txt` for Python package dependencies
 
-### 项目结构
+# Project Structure
 
 ```
 gesture-snake/
-├── assets/              # 图像和资源
-├── sounds/              # 音效和音乐
-├── src/                 # 源代码
-│   ├── game/            # 贪吃蛇游戏逻辑
-│   ├── gesture/         # 手势检测
+├── assets/              # Images and resources
+├── sounds/              # Sound effects and music
+├── src/                 # Source code
+│   ├── game/            # Snake game logic
+│   ├── gesture/         # Hand gesture detection
 │   └── __init__.py
-├── tests/               # 单元测试
-├── .gitignore           # Git忽略文件
-├── LICENSE              # MIT许可证
-├── README.md            # 本文件
-├── requirements.txt     # Python依赖
-└── run.py               # 主入口点
+├── tests/               # Unit tests
+├── .gitignore           # Git ignore file
+├── LICENSE              # MIT License
+├── README.md            # This file
+├── requirements.txt     # Python dependencies
+└── run.py               # Main entry point
 ```
-
----
 
 
 ## License | 许可证
 
-本项目采用MIT许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
