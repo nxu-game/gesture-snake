@@ -1,4 +1,3 @@
-
 [中文](README.md)
 
 ![游戏演示](https://github.com/wangqiqi/interesting_assets/raw/main/images/gensture-snake2.png)
@@ -100,6 +99,13 @@ gesture-snake/
 └── run.py               # Main entry point
 ```
 
+# Contact
+
+If you have any questions or suggestions, feel free to contact me:
+
+- WeChat: znzatop
+
+![WeChat](https://github.com/wangqiqi/interesting_assets/blob/main/images/wechat.jpg)
 
 ## License | 许可证
 
