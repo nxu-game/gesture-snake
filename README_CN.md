@@ -110,6 +110,10 @@ gesture-snake/
 
 ![微信](https://github.com/wangqiqi/interesting_assets/raw/main/images/wechat.jpg)
 
+## 更多项目
+
+更多有趣的项目请见：https://github.com/wangqiqi/interesting_assets.git
+
 ## 许可证
 
 本项目采用MIT许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。 

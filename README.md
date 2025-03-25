@@ -107,6 +107,10 @@ If you have any questions or suggestions, feel free to contact me:
 
 ![WeChat](https://github.com/wangqiqi/interesting_assets/raw/main/images/wechat.jpg)
 
+## More Projects
+
+更多有趣的项目请见：https://github.com/wangqiqi/interesting_assets.git
+
 ## License | 许可证
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
