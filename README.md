@@ -1,6 +1,6 @@
 [中文](README.md)
 
-![游戏演示](https://github.com/wangqiqi/interesting_assets/raw/main/images/gensture-snake2.png)
+![游戏演示](https://github.com/wangqiqi/interesting_assets/raw/main/images/gensture_snake2.png)
 
 # Introduction
 
@@ -105,7 +105,7 @@ If you have any questions or suggestions, feel free to contact me:
 
 - WeChat: znzatop
 
-![WeChat](https://github.com/wangqiqi/interesting_assets/blob/main/images/wechat.jpg)
+![WeChat](https://github.com/wangqiqi/interesting_assets/raw/main/images/wechat.jpg)
 
 ## License | 许可证
 
