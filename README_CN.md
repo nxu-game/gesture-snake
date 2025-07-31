@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-![游戏演示](https://github.com/wangqiqi/interesting_assets/raw/main/images/gensture_snake2.png)
+![游戏演示](https://github.com/nxu-game/interesting_assets/raw/main/images/gensture_snake2.png)
 
 ## 简介
 
@@ -108,11 +108,11 @@ gesture-snake/
 
 - 微信：znzatop
 
-![微信](https://github.com/wangqiqi/interesting_assets/raw/main/images/wechat.jpg)
+![微信](https://github.com/nxu-game/interesting_assets/raw/main/images/wechat.jpg)
 
 ## 更多项目
 
-更多有趣的项目请见：https://github.com/wangqiqi/interesting_assets.git
+更多有趣的项目请见：https://github.com/nxu-game/interesting_assets.git
 
 ## 许可证
 
